@@ -15,8 +15,8 @@ set: 1
 work: 1500
 rest: 300
 afterWorkRunCmd:
-    - "terminal-notifier -message \"Done pomodoro\"
-    - title \"pomodoro\"" - "afplay /System/Library/Sounds/Purr.aiff"
+    - "terminal-notifier -message \"Done pomodoro\"title \"pomodoro\""
+    - "afplay /System/Library/Sounds/Purr.aiff"
 afterRestRunCmd:
     - "terminal-notifier -message \"Finish rest\" -title \"pomodoro\""
     - "afplay /System/Library/Sounds/Purr.aiff"
