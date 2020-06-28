@@ -25,6 +25,6 @@ afterRestRunCmd:
 ~/.tmux.conf
 ```
 tm_pomodoro="#(cat ~/.pomodoro)"
-set -g status-right \$tm_pomodoro
+set -g status-right $tm_pomodoro
 set -g status-interval 1
 ```
